@@ -1,0 +1,23 @@
+python-dotenv
+langchain
+openai
+google-search-results # SerpAPI
+youtube-transcript-api
+tiktoken
+faiss-cpu
+wikipedia
+pinecone-client
+langchain-openai 
+langchain-anthropic 
+langchain-community 
+wikipedia
+pypdf
+beautifulsoup4
+langchainhub 
+langchain-cohere
+langchain-groq
+pymysql
+moviepy
+langchain_core
+pandas
+numpy

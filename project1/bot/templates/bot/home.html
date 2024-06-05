@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Bot</title>
+    <link rel="stylesheet" href="{% static 'bot/css/style.css' %}" />
+  </head>
+  <body>
+    <h1>Ask your questions</h1>
+    <form action="{% url 'home' %}" method="POST">
+      {% csrf_token %} {{ form.as_p }}
+
+      <button type="submit">Send</button>
+    </form>
+    <pre>{{ai_response}}</pre>
+  </body>
+</html>
